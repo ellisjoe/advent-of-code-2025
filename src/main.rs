@@ -1,4 +1,5 @@
 mod day_01;
+mod day_02;
 
 type EmptyResult = Result<(), Box<dyn std::error::Error>>;
 
