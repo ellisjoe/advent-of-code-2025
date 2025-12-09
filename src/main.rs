@@ -5,8 +5,12 @@ mod day_04;
 mod day_05;
 mod day_06;
 mod day_07;
+mod day_08;
 
-type EmptyResult = Result<(), Box<dyn std::error::Error>>;
+type Result<T> = std::result::Result<T, Box<dyn std::error::Error>>;
+
+type EmptyResult = Result<()>;
+
 
 fn main() {
     println!("Hello, world!");
